@@ -2,18 +2,27 @@
 /*#006A43 vert logo*/
 /*#F4742B orange logo*/
 
-menu {
+/*******************************************************************************
+agencement de la nav
+*******************************************************************************/
+.nav {
+  margin-top: -6px;
+  -ms-flex-align: stretch;
+  align-items: stretch;
   background-color: black;
+  color: white;
+  display: flex;
+  position: relative;
+  z-index: 2;
 }
 
-menu .nav {
-  background-color: black;
-}
-
-menu .nav div span {
+.nav div span {
   color: white;
 }
 
+/*******************************************************************************
+Les boutons
+*******************************************************************************/
 .button {
   background-color: #F4742B; /*#F4742B orange*/
 }
