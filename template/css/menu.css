@@ -1,0 +1,31 @@
+/*#BA172A rouge logo*/
+/*#006A43 vert logo*/
+/*#F4742B orange logo*/
+
+menu {
+  background-color: black;
+}
+
+menu .nav {
+  background-color: black;
+}
+
+menu .nav div span {
+  color: white;
+}
+
+.button {
+  background-color: #F4742B; /*#F4742B orange*/
+}
+
+#connection {
+  background-color: #BA172A; /*#BA172A rouge*/
+}
+
+#profil {
+  background-color: #006A43; /*#006A43 vert*/
+}
+
+#deconnection {
+  background-color: #BA172A; /*#BA172A rouge*/
+}

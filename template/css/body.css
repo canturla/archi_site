@@ -1,0 +1,65 @@
+/*******************************************************************************
+partie blabla
+*******************************************************************************/
+.sisi {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.text {
+  height: 200px;
+  width: 25%;
+}
+
+main section div h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+main section div p {
+  text-align: justify;
+}
+
+
+/*******************************************************************************
+partie photo
+*******************************************************************************/
+.coco {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.coco1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+
+.photo {
+  height: 200px;
+  width: 50%;
+  margin: 1px;
+  background-color: red;
+}
+
+.photo1 {
+  height: 200px;
+  width: 50%;
+  margin: 1px;
+  background-color: green;
+}
+
+.ligne {
+  display: flex;
+  justify-content: center;
+}
+
+hr {
+  background-color: grey;
+  width: 75%;
+}

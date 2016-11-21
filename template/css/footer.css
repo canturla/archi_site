@@ -1,0 +1,97 @@
+/*************************footer*/
+
+
+.footer{
+
+  display: flex;
+  justify-content: space-around;
+   width: 100%;
+   padding-top: 0%;
+}
+
+
+.row{
+
+  width: 35%;
+   height: 100px;
+   margin: 10px;
+}
+
+.canturlacontact{
+
+  width: 22%;
+   height: 10px;
+   margin: 3%;
+   line-height: 25px;
+    padding-top: 100px;
+    padding-left: 10px;
+    line-height: 25px;
+}
+
+.textcanturla
+{
+  width: 20%;
+   height: 100px;
+   margin: 3%;
+   padding-top: 100px;
+   padding-left: 10px;
+   line-height: 25px;
+}
+
+.copywrite{
+  text-align: center;
+  padding: 4rem;
+  margin-top: 250px;
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    .footer{
+        display: flex;
+        	flex-flow:column;
+          width: 100%;
+          text-align: center;
+    }
+    .row{
+      width: 100%;
+       height: 100px;
+       margin: 10px;
+    }
+
+    .canturlacontact{
+      text-align: center;
+      width: 100%;
+       height: 10px;
+       line-height: 25px;
+        padding-top: 340px;
+
+        line-height: 25px;
+    }
+
+    .textcanturla{
+      text-align: center;
+      width: 100%;
+       height: 100px;
+       margin: auto;
+        margin-right: 0px;
+        margin-right: 0%;
+       padding-top: 160px;
+
+       line-height: 25px;
+         text-align: center;
+    }
+
+    .copywrite{
+      text-align: center;
+      padding: 4rem;
+      margin-top: 10%;
+    }
+
+}
+
+
+
+
+
+/*******************fin footer */
