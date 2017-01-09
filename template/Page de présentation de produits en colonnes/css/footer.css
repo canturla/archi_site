@@ -1,0 +1,113 @@
+/*************************footer*/
+
+
+.footer{
+
+  display: flex;
+  justify-content: space-around;
+   width: 100%;
+   padding-top: 0%;
+   background-color: #e2b7b7;
+    padding: 40px 20px 150px;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 275px;
+    padding-left: 20px;
+    background-color: #f5f5f5;
+}
+
+
+.row{
+
+  width: 35%;
+   height: 100px;
+   margin: 10px;
+}
+
+.canturlacontact{
+  text-align: center;
+  width: 22%;
+   margin: 3%;
+   height: 10px;
+   line-height: 25px;
+    padding-top: 100px;
+    padding-left: 10px;
+    line-height: 25px;
+}
+
+.textcanturla
+{
+  width: 20%;
+   height: 100px;
+   margin: 3%;
+   padding-top: 100px;
+   padding-left: 10px;
+   line-height: 25px;
+}
+
+.copywrite{
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-top: 0%;
+  background-color: #f5f5f5;
+}
+
+/**************partie responsive ****/
+
+@media only screen and (max-width: 700px) {
+
+.footer{
+      display: flex;
+    	flex-flow:column;
+      width: 100%;
+      text-align: center;
+      padding-bottom: 120px;
+
+  }
+.row{
+    width: 100%;
+    height: 100px;
+     margin: 10px;
+}
+
+.canturlacontact{
+    text-align: center;
+    width: 100%;
+     height: 10px;
+     line-height: 25px;
+      padding-top: 340px;
+      line-height: 25px;
+      text-align: center;
+
+    }
+
+.textcanturla{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    padding-top: 200px;
+    line-height: 25px;
+    text-align: center;
+    }
+
+.copywrite{
+      text-align: center;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      margin-top: 0%;
+
+
+    }
+
+.input is-danger{
+  border-color: black;
+}
+/****************fin responsive*******/
+
+
+
+
+
+
+/*******************fin footer ***************/

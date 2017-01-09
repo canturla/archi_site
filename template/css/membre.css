@@ -1,0 +1,52 @@
+#bigby {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#historique {
+  margin-top: 50px;
+    width: 80%;
+}
+
+caption {
+    font-size: 24px;
+}
+
+#liste {
+    display: flex;
+    justify-content: center;
+}
+
+#liste div {
+    margin-top: 50px;
+    width: 60%;
+}
+
+.sectionGeneralAccount {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.bogbog {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.menuUser {
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+  width: 90%;
+}

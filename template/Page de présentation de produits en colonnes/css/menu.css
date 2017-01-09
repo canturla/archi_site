@@ -1,0 +1,44 @@
+/*******************************************************************************
+Les boutons
+*******************************************************************************/
+
+#button1 {
+    background-color: #F4742B;
+    /*#F4742B orange*/
+    color: white;
+}
+
+#button2 {
+    background-color: #BA172A;
+    /*#BA172A rouge*/
+}
+
+#button3 {
+    background-color: #006A43;
+    /*#006A43 vert*/
+}
+
+#button4 {
+    background-color: #BA172A;
+    /*#BA172A rouge*/
+}
+
+#button5 {
+    background-color: #006A43
+}
+
+
+/******************************************************************************/
+
+.input {
+  margin-top: 5px;
+}
+
+#button6 {
+  background-color: #F4742B;
+  margin-top: 5px;
+}
+
+#button7 {
+  background-color: #F4742B;
+}

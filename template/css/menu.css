@@ -1,40 +1,51 @@
-/*#BA172A rouge logo*/
-/*#006A43 vert logo*/
-/*#F4742B orange logo*/
-
-/*******************************************************************************
-agencement de la nav
-*******************************************************************************/
-.nav {
-  margin-top: -6px;
-  -ms-flex-align: stretch;
-  align-items: stretch;
-  background-color: black;
-  color: white;
-  display: flex;
-  position: relative;
-  z-index: 2;
-}
-
-.nav div span {
-  color: white;
-}
-
 /*******************************************************************************
 Les boutons
 *******************************************************************************/
-.button {
-  background-color: #F4742B; /*#F4742B orange*/
+#button0 {
+    background-color: #ffffff;
+      width: 116px;
 }
 
-#connection {
-  background-color: #BA172A; /*#BA172A rouge*/
+#button01 {
+    background-color: #ffffff;
+      width: 116px;
 }
 
-#profil {
-  background-color: #006A43; /*#006A43 vert*/
+#button1 {
+    background-color: #F4742B;
+    /*#F4742B orange*/
+    color: white;
+    width: 116px;
 }
 
-#deconnection {
-  background-color: #BA172A; /*#BA172A rouge*/
+#button2 {
+    background-color: #BA172A;
+    /*#BA172A rouge*/
+      width: 116px;
+}
+
+#button3 {
+    background-color: #006A43;
+    /*#006A43 vert*/
+      width: 116px;
+}
+
+#button4 {
+    background-color: #BA172A;
+    /*#BA172A rouge*/
+      width: 116px;
+}
+
+#button5 {
+    background-color: #006A43;
+      width: 116px;
+}
+
+.nav{
+  z-index: 1;
+}
+
+.titrecanturladrive{
+  font-size: xx-large;
+  margin-left: 10px;
 }

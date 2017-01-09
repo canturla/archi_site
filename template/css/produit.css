@@ -1,0 +1,178 @@
+.rating
+{
+    direction: rtl;
+}
+.rating a
+{
+    font-size: 3em;
+
+    float: none;
+
+    transition: color .4s;
+    text-decoration: none;
+
+    color: #aaa;
+}
+.rating a:hover,
+.rating a:focus,
+.rating a:hover ~ a,
+.rating a:focus ~ a
+{
+    cursor: pointer;
+
+    color: orange;
+}
+
+
+.rating2
+{
+    direction: rtl;
+}
+.rating2 a
+{
+    float: none;
+}
+
+
+.ajouterarticle
+{
+    margin-top: 10px;
+
+    color: white;
+    background-color: #006a43;
+}
+
+.titrearticle1
+{
+    font-weight: bold;
+}
+
+.soustitre1
+{
+    font-weight: bold;
+
+    margin-bottom: 10px;
+}
+
+.prixarticle1
+{
+    font-weight: bold;
+
+    margin-top: 0;
+}
+
+.ligneartiche1
+{
+    display: -webkit-box;
+}
+
+
+
+.image128
+{
+    width: 200px;
+    height: 150px;
+}
+
+
+#modal a.close-modal
+{
+    top: 0;
+    right: 0;
+}
+
+.card
+{
+    width: 100%;
+
+    border: 1px solid #f37423;
+}
+
+.rating2
+{
+    text-align: -webkit-center;
+}
+
+.grammes
+{
+    text-align: -webkit-center;
+}
+
+.modalpopup
+{
+    padding: 0 0;
+
+    border: 1px solid #f37423;
+}
+
+.prixarticle1
+{
+    margin-top: none;
+}
+
+
+.bpopup1
+{
+    width: 124px;
+
+    text-align: center;
+
+    color: white;
+    background-color: #0d6a3f;
+}
+
+.control
+{
+    text-align: center;
+}
+.boxarticle3
+{
+    border: 1px solid #f37423;
+}
+
+.tile.is-ancestor:not(:last-child)
+{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.imagepopup
+{
+    width: 169px;
+    height: 169px;
+    margin-top: 10px;
+}
+
+#button77
+{
+    color: white;
+    border: 1px solid #f37423;
+    background-color: #006a43;
+}
+
+.boutonfiltre
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: -webkit-center;
+}
+
+.ajouterafficher
+{
+    width: 128px;
+    margin-top: 10px;
+
+    color: white;
+    background-color: #006a43;
+}
+
+
+.bouttonafficher1
+{
+    margin-top: 10px;
+}
+
+.bouttonarticle1
+{
+    margin-top: 2px;
+}

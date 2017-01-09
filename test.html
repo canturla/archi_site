@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html class="route-documentation">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>canturla menu</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.2.3/css/bulma.css">
+
+</head>
+
+  <body>
+    <section class="hero is-dark">
+      <div class="hero-head">
+          <nav class="nav">
+            <div class="nav-left">
+              <a class="nav-item" href="/"><img src="images/logo-small.png" alt=""></a>
+            </div>
+            <span id="nav-toggle" class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+            </span>
+            <div id="nav-menu" class="nav-right nav-menu">
+              <span class="nav-item">
+                <a class="button">
+                  <span class="icon">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                  </span>
+                  <span>Accueil</span>
+                </a>
+              </span>
+              <span class="nav-item">
+                <a class="button">
+                  <span class="icon">
+                    <i class="fa fa-coffee" aria-hidden="true"></i>
+                  </span>
+                  <span>Produit</span>
+                </a>
+              </span>
+              <span class="nav-item">
+                <a class="button is-warning">
+                  <span class="icon">
+                    <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                  </span>
+                  <span>Panier</span>
+                </a>
+              </span>
+              <span class="nav-item">
+                <a class="button is-danger">
+                  <span class="icon">
+                    <i class="fa fa-sign-in" aria-hidden="true"></i>
+                  </span>
+                  <span>Connection</span>
+                </a>
+              </span>
+              <span class="nav-item">
+                <a class="button is-success">
+                  <span class="icon">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                  </span>
+                  <span>Profil</span>
+                </a>
+              </span>
+              <span class="nav-item">
+                <a class="button is-danger">
+                  <span class="icon">
+                    <i class="fa fa-sign-out" aria-hidden="true"></i>
+                  </span>
+                  <span>Deconnection</span>
+                </a>
+              </span>
+            </div>
+          </nav>
+      </div>
+    </section>
+
+    <script src="http://bulma.io/javascript/bulma.js"></script>
+    <script type="text/javascript">
+       document.getElementById("nav-toggle").addEventListener ("click", toggleNav);
+       function toggleNav() {
+               var nav = document.getElementById("nav-menu");
+               var className = nav.getAttribute("class");
+               if(className == "nav-right nav-menu") {
+                   nav.className = "nav-right nav-menu is-active";
+               } else {
+                   nav.className = "nav-right nav-menu";
+               }
+       }
+   </script>
+  </body>
+</html>

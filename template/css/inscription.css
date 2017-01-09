@@ -1,0 +1,55 @@
+
+
+.title{
+  padding-bottom: 10px
+
+}
+
+
+ .image.is-128x128{
+   margin-left: auto;
+   margin-right: auto;
+
+ }
+
+
+ .button.is-primary{
+   background-color: #006A43;
+       margin-bottom: 20px;
+ }
+
+a{
+  color: #363636;
+}
+
+
+}
+
+.hero.is-fullheight .hero-body{
+  background-color: #ffffff;
+}
+
+.input{
+/*  border: 1px solid #e86305;
+  border-radius: 5px;*/
+}
+
+.box:not(:last-child) {
+    margin-bottom: 20px;}
+
+
+.button.is-info2{
+  background-color: #006a43;
+  margin-top: 10px;
+  color: white;
+}
+
+.inscription{
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.avatar{
+  box-shadow: 0 2px 3px rgb(244, 161, 107), 0 0 0 1px rgba(10, 10, 10, 0.1);
+}
